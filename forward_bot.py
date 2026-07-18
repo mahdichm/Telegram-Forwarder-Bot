@@ -566,7 +566,7 @@ async def go_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def forward_settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.callback_query.answer()
     await update.callback_query.message.reply_text(
-        "âڑ™ï¸ڈ Forward Settings menu coming soon!"
+        " Forward Settings menu coming soon!"
     )
     await show_main_menu(update, context)
     return MAIN_MENU
@@ -575,7 +575,7 @@ async def forward_settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def rules_filters(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.callback_query.answer()
     await update.callback_query.message.reply_text(
-        "ًںژ›ï¸ڈ Rules & Filters menu coming soon!"
+        " Rules & Filters menu coming soon!"
     )
     await show_main_menu(update, context)
     return MAIN_MENU
